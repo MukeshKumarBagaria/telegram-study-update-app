@@ -1,0 +1,31 @@
+{
+    "name": "student-updates-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for student updates",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "keywords": [
+      "telegram",
+      "bot",
+      "students",
+      "updates"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "moment": "^2.29.4",
+      "node-cron": "^3.0.2",
+      "node-telegram-bot-api": "^0.61.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    }
+  }
